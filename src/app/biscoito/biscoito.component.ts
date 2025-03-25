@@ -30,7 +30,7 @@ export class BiscoitoComponent {
     if (!this.biscoitoAberto){
       this.biscoitoAberto=true
       this.imagemSource='/biscoito-aberto.png'
-      this.frase = this.frases[Math.floor(Math.random() * this.frase.length)]
+      this.frase = this.frases[Math.floor(Math.random() * this.frases.length)]
     }
   }
 
