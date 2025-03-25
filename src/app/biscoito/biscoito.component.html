@@ -1,0 +1,8 @@
+<div class="container">
+    <h1>Biscoito Da Sorte</h1>
+    <img [src]="imagemSource" (click)="quebrarBiscoito()"/>
+    <p>{{frase}}</p>
+    <app-botao texto="Quebrar Biscoito" classe="botao" 
+    [desabilitado]="biscoitoAberto" (click)="quebrarBiscoito()"></app-botao>
+    <app-botao texto="Reiniciar Biscoito" classe="botao secundario" (click)="reiniciarBiscoito()"></app-botao>
+</div>

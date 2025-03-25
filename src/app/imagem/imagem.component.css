@@ -1,0 +1,9 @@
+img {
+    width: 230px;
+    height: 230px;
+    cursor: pointer;
+}
+
+.closed {
+  display: none;
+}
